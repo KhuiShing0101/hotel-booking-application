@@ -1,0 +1,68 @@
+.drag-area {
+    margin-top: 50px;
+    border: 2px dashed #bdbdbd;
+    height: 300px;
+    width: 500px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: columns;
+    overflow: hidden;
+}
+.drag-area.active {
+    border: 2px solid #757575;
+}
+.drag-area .icon {
+    font-size: 100px;
+    color: #ffffff;
+}
+.drag-area header {
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.drag-area span {
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    margin: 10px 0 15px 0;
+}
+input[type="file"] {
+    opacity: 0;
+    margin-left: 20px;
+}
+.input-file {
+    text-align: center;
+    background-color: #3276b1;
+    color: #fff;
+    display: block;
+    width: 144px;
+    height: 33px;
+    font-size: 17px;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 112px;
+}
+.preview-img {
+    width: 100%;
+}
+.hide {
+    display: none !important;
+}
+.show {
+    display: inline !important;
+}
+.show-img-preview {
+    display: inline;
+}
+.upload-btn {
+    display: none;
+}
+.upload-btn-active {
+    display: "";
+}
+.edit-file-browse {
+    display: none !important;
+}
